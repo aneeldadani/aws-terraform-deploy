@@ -5,6 +5,7 @@ terraform.tfstate.backup
 *.tfstate
 *.tfstate.*
 .terraform.tfstate.lock.info
+.terraform.lock.hcl
 
 # local crash logs, OS files
 *.log
