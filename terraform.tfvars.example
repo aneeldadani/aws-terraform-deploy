@@ -1,0 +1,17 @@
+# REQUIRED: restrict access to your public IP(s)
+allowed_ingress_cidrs = ["REPLACE_ME_YOUR_PUBLIC_IP/32"]
+
+# Vulnerable app (example: Juice Shop listens on 3000)
+app_image = "bkimminich/juice-shop"
+app_port  = 3000
+
+# Optional
+aws_region       = "us-west-2"
+instance_type    = "t3.medium"
+healthcheck_path = "/"
+
+# Optional SSH (instance is in a private subnet; requires VPN/bastion/SSM to reach)
+# ssh_ingress_cidrs = ["REPLACE_ME_YOUR_PUBLIC_IP/32"]
+# ec2_keypair_name  = "REPLACE_ME_KEYPAIR_NAME"
+# domain_name = "REPLACE_ME_WITH_DOMAIN_NAME"
+# record_name = "REPLACE_ME_WITH_SUBDOMAIN"  # demo.example.xyz

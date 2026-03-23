@@ -1,0 +1,41 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# local crash logs, OS files
+*.log
+.DS_Store
+
+# Terraform variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+# Sensitive keys & credentials
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+
+# General secrets
+secrets.yaml
+secrets.json
+secrets.yml
+*secret*
+*secrets*
