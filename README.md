@@ -1,4 +1,4 @@
-# Salt AWS Demo (Terraform)
+# AWS Demo (Terraform)
 
 ## Overview
 
