@@ -94,8 +94,8 @@ example.com
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aneeldadani/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/aneeldadani/aws-terraform-deploy.git
+cd aws-terraform-deploy 
 ```
 
 ---
